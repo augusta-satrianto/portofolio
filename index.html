@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio</title>
+    <!-- CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style-custom.css" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      form {
+        width: 50%;
+        margin: 0 auto;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 0.5em;
+        margin-bottom: 1em;
+        border: 1px solid #ccc;
+        border-radius: 0.25em;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        background-color: #13b0f5;
+        color: white;
+        padding: 0.5em 1em;
+        border: none;
+        border-radius: 0.25em;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #7864d1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#" style="color: #42446e"
+          >Augusta S<span class="dot">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+          </ul>
+          <a href="#contact" class="btn btn-brand ms-lg-3">Contact</a>
+        </div>
+      </div>
+    </nav>
+    <!-- HOME -->
+    <section id="home">
+      <div class="container mt-5">
+        <div class="row justify-content-lg-evenly">
+          <div class="col-lg-7 mb-3 mt-5">
+            <div class="row">
+              <div class="col-12 offset-lg-1 text-black">
+                <h1 class="display-4" style="color: #42446e">
+                  Hai👋,<br />My name is<br /><span class="gradient-text"
+                    >Augusta Satrianto
+                  </span>
+                  <br />Data Enthusiast
+                </h1>
+                <!-- <a href="#" class="btn btn-brand">Download CV</a> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/me.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 style="color: #42446e">About</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-8">
+            <div class="team-member">
+              <div class="image">
+                <img src="img/aan.jpg" alt="" />
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/augusta.satrianto"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="https://www.instagram.com/augusta_strn/"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="https://github.com/augustasatrianto"
+                    ><i class="bx bxl-github"></i
+                  ></a>
+                </div>
+                <div class="overlay"></div>
+              </div>
+
+              <h5 style="color: #42446e">Augusta Satrianto</h5>
+              <p style="color: #42446e">Sampang, Jawa Timur</p>
+            </div>
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-6 col-md-8">
+            <div class="pt-lg-4">
+              <h3 style="color: #42446e">I am Augusta Satrianto</h3>
+              <p class="mx-auto" style="color: #42446e">
+                I born in Klaten on August 27, 2002. I am 20 years old. Now I'm
+                studying at the State University of Surabaya majoring in Sistem
+                Informasi. My habit is facing the computer to write several
+                programs. I like to learn new things about the computer world.
+                Not only computers, I am also interested in science and
+                knowledge in this world.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 style="color: #42446e">Skills</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Python</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>SQL</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Tableau</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Excel/Spreadsheet</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Bootstrap</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>SQL</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Postman</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Rest API</h5>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <h5>Python</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 style="color: #42446e">Work</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/My-al-qur'an.png" alt="" />
+
+              <div class="content">
+                <!-- <small>17 , Feb 2020</small> -->
+
+                <h5 class="mt-0 pt-0" style="color: #42446e">My Al-Qur'an</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Mobile Development
+                  </p>
+                  <p class="col-4 tag">Flutter</p>
+                </div>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s,</p> -->
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/my-blog.png" alt="" />
+              <div class="content">
+                <!-- <small>17 , Feb 2020</small> -->
+                <h5 class="mt-0 pt-0" style="color: #42446e">My Blog</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Web Development
+                  </p>
+                  <p class="col-4 tag" style="margin-right: 5px">Laravel</p>
+                </div>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s,</p> -->
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/cekula.png" alt="" />
+              <div class="content">
+                <!-- <small>17 , Feb 2020</small> -->
+                <h5 class="mt-0 pt-0" style="color: #42446e">Cekula</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Mobile Development
+                  </p>
+                  <p class="col-4 tag">Flutter</p>
+                </div>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s,</p> -->
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/pawonkoe.png" alt="" />
+
+              <div class="content">
+                <!-- <small>17 , Feb 2020</small> -->
+
+                <h5 class="mt-0 pt-0" style="color: #42446e">Pawonkoe</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Web Development
+                  </p>
+                  <p class="col-4 tag">Laravel</p>
+                </div>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s,</p> -->
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/my-warehouse.png" alt="" />
+
+              <div class="content">
+                <!-- <small>17 , Feb 2020</small> -->
+
+                <h5 class="mt-0 pt-0" style="color: #42446e">My Warehouse</h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Mobile Development
+                  </p>
+                  <p class="col-4 tag">FLutter</p>
+                </div>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s,</p> -->
+              </div>
+            </article>
+          </div>
+          <div class="col-md-4 mb-4">
+            <article class="blog-post">
+              <img src="img/fish-e-commerce.png" alt="" />
+
+              <div class="content">
+                <!-- <small>17 , Feb 2020</small> -->
+
+                <h5 class="mt-0 pt-0" style="color: #42446e">
+                  Fish E-Commerce
+                </h5>
+                <div class="row">
+                  <p class="col-lg-8 tag" style="margin-right: 5px">
+                    Mobile Development
+                  </p>
+                  <p class="col-4 tag">FLutter</p>
+                </div>
+                <!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s,</p> -->
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- <div class="row mt-lg-5">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <center> <a href="detail.html" class="btn btn-brand ms-lg-3">View all</a></center>
+                </div>
+                <div class="col-md-4"></div>
+            </div> -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h1 style="color: #42446e">Contact</h1>
+            </div>
+          </div>
+        </div>
+
+        <form action="https://formspree.io/f/mzbqzrpg" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" /><br />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br />
+
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top text-center">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h4 class="navbar-brand">Augusta Satrianto</h4>
+              <!-- <p style="color:#42446E;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s,</p> -->
+              <div class="col-auto social-icons">
+                <a href="https://www.facebook.com/augusta.satrianto"
+                  ><i class="bx bxl-facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/augusta_strn/"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a href="https://github.com/augustasatrianto"
+                  ><i class="bx bxl-github"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p class="mb-0">Copyright@2022. All rights Reserved</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
